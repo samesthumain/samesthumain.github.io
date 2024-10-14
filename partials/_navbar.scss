@@ -1,5 +1,20 @@
 @use "variables";
 
-nav{
-    background-color: variables.$charcoal;
+header{
+    display: flex;
+    justify-content: space-around;
+
+    
+    div{
+        .logo{
+            width: 50px;
+        }
+    }
+    
 }
+
+
+
+/*nav{
+    background-color: variables.$charcoal;
+}*/
