@@ -3,11 +3,12 @@
 header{
     display: flex;
     justify-content: space-around;
+    background-color: variables.$bleu;
 
     
     div{
         .logo{
-            width: 50px;
+            width: 100px;
         }
     }
     
