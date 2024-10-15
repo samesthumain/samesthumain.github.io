@@ -4,11 +4,15 @@ header{
     display: flex;
     justify-content: space-around;
     background-color: variables.$bleu;
-
+    color: variables.$mauve;
+    padding: 10px 50px;
     
     div{
+        display: flex;
+        justify-content: center;
+
         .logo{
-            width: 100px;
+            width: 200px;
         }
     }
     
