@@ -1,8 +1,10 @@
-@use "partials/navbar";
+@use "partials/header";
 @use "partials/variables";
+@use "partials/profil";
 
 body{
     margin: 0%;
+    background-color: variables.$tertiary;
 }
 
 /*h1{
