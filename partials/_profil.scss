@@ -1,8 +1,8 @@
 @use "variables";
 
 .profil{
-    background-color: variables.$secondary;
-    color: variables.$primary;
+    background-color: variables.$primary;
+    /*color: variables.$primary;*/
     border-radius: 15%;
     margin: 5%;
     padding: 10px;
@@ -23,6 +23,7 @@
     &__image{
         width: 100%;
         grid-area: image;
+        border-radius: 15px;
     }
 
     &__texte{
@@ -44,12 +45,13 @@
     }
 
     &__bouton{
-        border: 2px solid variables.$primary;
-        background-color: variables.$secondary;
-        color: variables.$primary;
+        border: 2px solid variables.$blanc;
+        background-color: variables.$primary;
+        /*color: variables.$blanc;*/
         border-radius: 10px;
         margin: 10%;
         grid-area: bouton;
+        font-family: "Chakra Petch", sans-serif;
     }
 }
 
