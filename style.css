@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+/*$charcoal:#394053;
+$gray:#4E4A59;
+$wenge:#6E6362;
+$moonstone:#39A2AE;
+$aquamarine:#00FDDC;*/
+/*$primary: #A8216A;
+$primary: #76174a;*/
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #8f1c5a;
+  /*color: variables.$primary;*/
+  padding: 10px 50px;
+}
+header div {
+  display: flex;
+  justify-content: center;
+}
+header div h2 {
+  display: none;
+}
+header div .logo {
+  width: 200px;
+}
+
+@media screen and (max-width: 497px) {
+  header h2 {
+    display: none;
+  }
+}
+@media screen and (min-width: 885px) {
+  header div h2 {
+    display: block;
+  }
+}
+.profil {
+  background-color: #8f1c5a;
+  /*color: variables.$primary;*/
+  border-radius: 15%;
+  margin: 5%;
+  padding: 10px;
+  justify-content: center;
+  display: grid;
+  grid-template-areas: "bienvenue" "image" "texte" "desc" "bouton";
+}
+.profil h1 {
+  text-align: center;
+  grid-area: bienvenue;
+}
+.profil__image {
+  width: 100%;
+  grid-area: image;
+  border-radius: 15px;
+}
+.profil__texte {
+  grid-area: texte;
+  margin: 10%;
+  /*h3{
+
+  }
+
+  h4{
+
+  }*/
+}
+.profil__desc {
+  grid-area: desc;
+  margin: 10%;
+}
+.profil__bouton {
+  border: 2px solid #ffffff;
+  background-color: #8f1c5a;
+  /*color: variables.$blanc;*/
+  border-radius: 10px;
+  margin: 10%;
+  grid-area: bouton;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+@media screen and (min-width: 574px) {
+  .profil {
+    padding: 30px;
+    grid-template-areas: "bienvenue bienvenue" "texte image" "desc image" "bouton image";
+  }
+}
+@media screen and (min-width: 660px) {
+  .profil__image {
+    height: 500px;
+    width: auto;
+    /*margin: 0 10%;*/
+  }
+}
+@media screen and (min-width: 1000px) {
+  main {
+    display: flex;
+    justify-content: center;
+  }
+  main .profil {
+    width: 800px;
+    margin: 50px;
+  }
+  main .profil__image {
+    margin: 0 20%;
+  }
+}
+* {
+  color: #000000;
+}
+
+body {
+  margin: 0%;
+  background-color: #000000;
+  font-family: "Chakra Petch", sans-serif;
+  /*color: variables.$blanc;*/
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+/*h3{
+
+}
+
+h4{
+
+}
+
+h5{
+
+}
+
+h6{
+
+}*//*# sourceMappingURL=style.css.map */
