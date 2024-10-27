@@ -1,4 +1,5 @@
 @use "variables";
+@use "sass:color";
 
 cartes{
 
@@ -7,8 +8,14 @@ cartes{
   column-gap:24px;
 
   &__carte{
+  position: relative;
+  background-color: variables.$primary;
+  color: variables.$noir;
+  padding: 10px;
 
-    
+    &:hover{
+      background-color: color.adjust(variables.$primary, $saturation: -50%);
+    }
 
     &__image{
       
