@@ -13,14 +13,14 @@ header {
   /*color: variables.$primary;*/
   padding: 10px 50px;
 }
-header div {
+header a {
   display: flex;
   justify-content: center;
 }
-header div h2 {
+header a h2 {
   display: none;
 }
-header div .logo {
+header a .logo {
   width: 200px;
 }
 
@@ -30,7 +30,7 @@ header div .logo {
   }
 }
 @media screen and (min-width: 885px) {
-  header div h2 {
+  header a h2 {
     display: block;
   }
 }
