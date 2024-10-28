@@ -34,6 +34,53 @@ header a .logo {
     display: block;
   }
 }
+.cartes {
+  margin: 5%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+  gap: 24px;
+}
+.cartes__carte {
+  position: relative;
+  background-color: #8f1c5a;
+  color: #000000;
+  padding: 10px;
+  width: 90%;
+  height: 40%;
+  /*&__titre{
+
+  }
+
+  &__desc{
+
+  }
+
+  &__annee{
+
+  }*/
+}
+.cartes__carte:hover {
+  background-color: #644757;
+}
+.cartes__carte__image {
+  background-size: cover;
+  width: 90%;
+  height: 40%;
+  margin: 5px;
+}
+.cartes__carte__image--1 {
+  background-image: url("../images/");
+}
+.cartes__carte__image--2 {
+  background-image: url("../images/");
+}
+.cartes__carte__image--3 {
+  background-image: url("../images/");
+}
+.cartes__carte__image--4 {
+  background-image: url("../images/");
+}
+
 .profil {
   background-color: #8f1c5a;
   /*color: variables.$primary;*/

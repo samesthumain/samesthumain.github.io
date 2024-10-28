@@ -1,17 +1,19 @@
 @use "variables";
 @use "sass:color";
 
-cartes{
-
+.cartes{
+  margin: 5%;
   display:grid;
   grid-template-columns:repeat(auto-fit, minmax(25%, 1fr));
-  column-gap:24px;
+  gap:24px;
 
   &__carte{
-  position: relative;
-  background-color: variables.$primary;
-  color: variables.$noir;
-  padding: 10px;
+    position: relative;
+    background-color: variables.$primary;
+    color: variables.$noir;
+    padding: 10px;
+    width:90%;
+    height:40%;
 
     &:hover{
       background-color: color.adjust(variables.$primary, $saturation: -50%);
@@ -40,7 +42,7 @@ cartes{
       }
     }
 
-    &__titre{
+    /*&__titre{
       
     }
 
@@ -50,6 +52,6 @@ cartes{
 
     &__annee{
       
-    }
+    }*/
   }
 }
