@@ -67,12 +67,12 @@ header a .logo {
 }
 .cartes__carte__image {
   background-size: cover;
-  width: 90%;
+  width: 90px;
   height: 40%;
   margin: 5px;
 }
 .cartes__carte__image--1 {
-  background-image: url("../images/robot_tete.jpg");
+  background-image: url("./images/robot_tete.jpg");
 }
 .cartes__carte__image--2 {
   background-image: url("../images/");
