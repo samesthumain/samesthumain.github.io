@@ -4,14 +4,13 @@ $gray:#4E4A59;
 $wenge:#6E6362;
 $moonstone:#39A2AE;
 $aquamarine:#00FDDC;*/
-/*$primary: #A8216A;
-$primary: #76174a;*/
 header {
   display: flex;
   justify-content: space-around;
-  background-color: #8f1c5a;
+  background-color: #7c0c48;
   /*color: variables.$primary;*/
   padding: 10px 50px;
+  box-shadow: 0 0 15px black;
 }
 header a {
   display: flex;
@@ -42,11 +41,15 @@ header a .logo {
 }
 .cartes__carte {
   position: relative;
-  background-color: #8f1c5a;
+  background-color: #7c0c48;
+  background-color: #7c0c48;
+  background-blend-mode: color-dodge;
   color: #000000;
   padding: 10px;
   width: 90%;
   height: 40%;
+  box-shadow: 0 0 15px black;
+  border-radius: 15px;
   /*&__titre{
 
   }
@@ -60,7 +63,7 @@ header a .logo {
   }*/
 }
 .cartes__carte:hover {
-  background-color: #644757;
+  background-color: #5a2e46;
 }
 .cartes__carte__image {
   background-size: cover;
@@ -82,18 +85,21 @@ header a .logo {
 }
 
 .profil {
-  background-color: #8f1c5a;
-  /*background-image: url('../images/logo_sam.png');
-  background-size: 20%;
+  background-color: #7c0c48;
+  background-image: url("../images/logo_mauve.png");
+  background-blend-mode: color-dodge;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: 0% 100%;
-  color: variables.$primary;*/
+  background-position: center;
   border-radius: 15%;
   margin: 5%;
   padding: 10px;
   justify-content: center;
   display: grid;
   grid-template-areas: "bienvenue" "image" "texte" "desc" "bouton";
+  -moz-column-gap: 6em;
+       column-gap: 6em;
+  box-shadow: 0 0 15px black;
 }
 .profil h1 {
   text-align: center;
@@ -103,6 +109,8 @@ header a .logo {
   width: 100%;
   grid-area: image;
   border-radius: 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .profil__texte {
   grid-area: texte;
@@ -126,7 +134,7 @@ header a .logo {
 }
 .profil a .profil__bouton {
   border: 2px solid #000000;
-  background-color: #8f1c5a;
+  background-color: #7c0c48;
   /*color: variables.$blanc;*/
   border-radius: 10px;
   font-family: "Chakra Petch", sans-serif;
@@ -168,7 +176,9 @@ header a .logo {
 
 body {
   margin: 0%;
-  background-color: #000000;
+  background-image: url("./images/logo_mauve.png");
+  background-color: #111D4A;
+  background-blend-mode: multiply;
   font-family: "Chakra Petch", sans-serif;
   /*color: variables.$blanc;*/
 }

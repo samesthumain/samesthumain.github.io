@@ -10,10 +10,14 @@
   &__carte{
     position: relative;
     background-color: variables.$primary;
+    background-color: variables.$primary;
+    background-blend-mode: color-dodge;
     color: variables.$noir;
     padding: 10px;
     width:90%;
     height:40%;
+    box-shadow: 0 0 15px black;
+    border-radius: 15px;
 
     &:hover{
       background-color: color.adjust(variables.$primary, $saturation: -50%);

@@ -14,7 +14,10 @@
 
 body{
     margin: 0%;
-    background-color: variables.$noir;
+    background-image: url('./images/logo_mauve.png');
+    //background-size: 60%;
+    background-color: variables.$secondary;
+    background-blend-mode: multiply;
     font-family: "Chakra Petch", sans-serif;
     /*color: variables.$blanc;*/
 }
