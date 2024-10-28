@@ -124,6 +124,10 @@ header a .logo {
   grid-area: bouton;
   font-family: "Chakra Petch", sans-serif;
 }
+.profil__bouton a {
+  width: 100%;
+  height: 100%;
+}
 
 @media screen and (min-width: 574px) {
   .profil {
