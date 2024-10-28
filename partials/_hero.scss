@@ -9,7 +9,7 @@
     background-position: center;
     //background-position: 0% 100%;
     //color: variables.$primary;
-    border-radius: 15%;
+    border-radius: 70px;
     margin: 5%;
     padding: 10px;
     justify-content: center;
@@ -35,6 +35,8 @@
         grid-area: image;
         border-radius: 15px;
         object-fit: cover;
+        background-color: variables.$secondary;
+        border: 2px solid variables.$noir;
     }
 
     &__texte{
@@ -76,6 +78,8 @@
         }
     }
 }
+
+
 
 @media screen and (min-width: 574px){
     .profil{

@@ -72,7 +72,7 @@ header a .logo {
   margin: 5px;
 }
 .cartes__carte__image--1 {
-  background-image: url("../images/");
+  background-image: url("../images/robot_tete.jpg");
 }
 .cartes__carte__image--2 {
   background-image: url("../images/");
@@ -91,7 +91,7 @@ header a .logo {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border-radius: 15%;
+  border-radius: 70px;
   margin: 5%;
   padding: 10px;
   justify-content: center;
@@ -111,6 +111,8 @@ header a .logo {
   border-radius: 15px;
   -o-object-fit: cover;
      object-fit: cover;
+  background-color: #111D4A;
+  border: 2px solid #000000;
 }
 .profil__texte {
   grid-area: texte;
