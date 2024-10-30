@@ -103,6 +103,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     max-width: 1000px;
     
     /*display: grid;
@@ -122,6 +123,11 @@ main{
         height: 50vw;
         max-height: 500px;
         //border-radius: 70px;
+    }
+
+    img{
+        width: 80%;
+        max-height: 500px;
     }
 }
 
