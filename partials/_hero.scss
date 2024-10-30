@@ -57,12 +57,12 @@
         margin: 10%;
     }
 
-    a{
+    /*a{
         margin: 10%;
         grid-area: bouton;
-        padding: 0;
+        padding: 0;*/
 
-        .profil__bouton{
+        &__bouton{
             border: 2px solid variables.$noir;
             background-color: variables.$primary;
             /*color: variables.$blanc;*/
@@ -70,12 +70,51 @@
             //margin: 10%;
             //grid-area: bouton;
             font-family: "Chakra Petch", sans-serif;
+            display: flex;
+            justify-content: center;
 
             /*a{
                 width: 100%;
                 height: 100%;
             }*/
         }
+   // }
+}
+
+.hero{
+    background-color: variables.$primary;
+    
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    //background-position: 0% 100%;
+    //color: variables.$primary;
+    border-radius: 70px;
+    margin: 5vw;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    
+    /*display: grid;
+    grid-template-areas: 
+    "bienvenue"
+    "image"
+    "texte"
+    "desc"
+    "bouton";
+    column-gap: 6em;*/
+
+    //border: ;
+    box-shadow: 0 0 15px black;
+
+    iframe{
+        width: 80%;
+        height: 50vw;
+        max-height: 500px;
+        //border-radius: 70px;
     }
 }
 
@@ -109,9 +148,13 @@
         .profil{
             width: 800px;
             margin: 50px;
-            &__image{
+            /*&__image{
                 margin: 0 20%;
-            }
+            }*/
         }
+    }
+
+    .hero{
+        width: 80%;
     }
 }
