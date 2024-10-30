@@ -82,6 +82,13 @@ header a .logo {
   background-image: url("../images/");
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .profil {
   background-color: #7c0c48;
   background-image: url("../images/logo_mauve.png");
@@ -147,6 +154,7 @@ header a .logo {
 
 .hero {
   background-color: #7c0c48;
+  width: 80%;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -171,6 +179,24 @@ header a .logo {
   width: 80%;
   height: 50vw;
   max-height: 500px;
+}
+
+.desc {
+  background-color: #7c0c48;
+  width: 80%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 70px;
+  margin: 5vw;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  box-shadow: 0 0 15px black;
+  text-align: center;
 }
 
 @media screen and (min-width: 574px) {
@@ -223,11 +249,11 @@ h2 {
   font-size: 36px;
 }
 
-/*h3{
-
+h3 {
+  font-size: 26px;
 }
 
-h4{
+/*h4{
 
 }
 
@@ -237,4 +263,7 @@ h5{
 
 h6{
 
-}*//*# sourceMappingURL=style.css.map */
+}*/
+p {
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */

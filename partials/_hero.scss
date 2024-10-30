@@ -1,5 +1,12 @@
 @use "variables";
 
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .profil{
     background-color: variables.$primary;
     background-image: url('../images/logo_mauve.png');
@@ -83,7 +90,7 @@
 
 .hero{
     background-color: variables.$primary;
-    
+    width: 80%;
     
     background-size: contain;
     background-repeat: no-repeat;
@@ -116,6 +123,27 @@
         max-height: 500px;
         //border-radius: 70px;
     }
+}
+
+.desc{
+    background-color: variables.$primary;
+    width: 80%;
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    //background-position: 0% 100%;
+    //color: variables.$primary;
+    border-radius: 70px;
+    margin: 5vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    box-shadow: 0 0 15px black;
+    text-align: center;
 }
 
 
