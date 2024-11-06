@@ -44,7 +44,6 @@ header a .logo {
   background-color: #7c0c48;
   background-color: #7c0c48;
   background-blend-mode: color-dodge;
-  color: #000000;
   padding: 20px;
   box-shadow: 0 0 15px black;
   border-radius: 15px;
@@ -139,7 +138,7 @@ main {
   margin: 10%;
 }
 .profil__bouton {
-  border: 2px solid #000000;
+  border: 2px solid #ffffff;
   background-color: #7c0c48;
   /*color: variables.$blanc;*/
   border-radius: 10px;
@@ -234,7 +233,7 @@ main {
   }
 }
 * {
-  color: #000000;
+  color: #ffffff;
 }
 
 body {
