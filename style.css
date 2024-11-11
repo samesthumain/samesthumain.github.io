@@ -36,8 +36,8 @@ header a .logo {
 .cartes {
   margin: 5%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
-  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+  gap: 30px;
 }
 .cartes__carte {
   position: relative;
@@ -45,6 +45,7 @@ header a .logo {
   background-color: #7c0c48;
   background-blend-mode: color-dodge;
   padding: 20px;
+  height: 80%;
   box-shadow: 0 0 15px black;
   border-radius: 15px;
   /*&__titre{
@@ -52,10 +53,6 @@ header a .logo {
   }
 
   &__desc{
-
-  }
-
-  &__annee{
 
   }*/
 }
@@ -80,7 +77,24 @@ header a .logo {
 .cartes__carte__image--4 {
   background-image: url("../images/");
 }
+.cartes__carte__annee {
+  display: none;
+}
 
+@media screen and (min-width: 745px) {
+  .cartes {
+    grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+    -moz-column-gap: 26px;
+         column-gap: 26px;
+    row-gap: 60px;
+  }
+  .cartes__carte {
+    height: 100%;
+  }
+  .cartes__carte__annee {
+    display: block;
+  }
+}
 main {
   display: flex;
   flex-direction: column;
