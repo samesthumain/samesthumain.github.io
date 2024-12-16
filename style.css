@@ -7,10 +7,11 @@ $aquamarine:#00FDDC;*/
 header {
   display: flex;
   justify-content: space-around;
-  background-color: #7c0c48;
+  background-color: #000000;
   /*color: variables.$primary;*/
   padding: 10px 50px;
   box-shadow: 0 0 15px black;
+  border-bottom: 2px solid #ffffff;
 }
 header a {
   display: flex;
@@ -41,13 +42,12 @@ header a .logo {
 }
 .cartes__carte {
   position: relative;
-  background-color: #7c0c48;
-  background-color: #7c0c48;
-  background-blend-mode: color-dodge;
+  background-color: #000000;
   padding: 20px;
   height: 80%;
   box-shadow: 0 0 15px black;
   border-radius: 15px;
+  border: 2px solid #ffffff;
   /*&__titre{
 
   }
@@ -57,7 +57,7 @@ header a .logo {
   }*/
 }
 .cartes__carte:hover {
-  background-color: #5a2e46;
+  background-color: #555555;
 }
 .cartes__carte__image {
   background-size: cover;
@@ -103,7 +103,7 @@ main {
 }
 
 .profil {
-  background-color: #7c0c48;
+  background-color: #000000;
   background-image: url("../images/logo_mauve.png");
   background-blend-mode: color-dodge;
   background-size: contain;
@@ -118,6 +118,7 @@ main {
   grid-template-areas: "bienvenue" "image" "texte" "desc" "bouton";
   -moz-column-gap: 6em;
        column-gap: 6em;
+  border: 2px solid #ffffff;
   box-shadow: 0 0 15px black;
   /*div{
       margin: 10%;
@@ -154,7 +155,7 @@ main {
 }
 .profil__bouton {
   border: 2px solid #ffffff;
-  background-color: #7c0c48;
+  background-color: #000000;
   /*color: variables.$blanc;*/
   border-radius: 10px;
   margin: 10%;
@@ -168,10 +169,14 @@ main {
       height: 100%;
   }*/
 }
+.profil__bouton:hover {
+  background-color: #555555;
+}
 
 .hero {
-  background-color: #7c0c48;
+  background-color: #000000;
   width: 80%;
+  border: 2px solid #ffffff;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -204,8 +209,9 @@ main {
 }
 
 .desc {
-  background-color: #7c0c48;
+  background-color: #000000;
   width: 80%;
+  border: 2px solid #ffffff;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -267,9 +273,8 @@ main {
 
 body {
   margin: 0%;
-  background-image: url("./images/logo_mauve.png");
-  background-color: #111D4A;
-  background-blend-mode: multiply;
+  background-image: url("./images/logo_blanc.png");
+  background-color: #000000;
   font-family: "Chakra Petch", sans-serif;
   /*color: variables.$blanc;*/
 }

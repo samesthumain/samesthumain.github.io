@@ -9,18 +9,21 @@
 
   &__carte{
     position: relative;
-    background-color: variables.$primary;
-    background-color: variables.$primary;
-    background-blend-mode: color-dodge;
+    background-color: variables.$noir;
+    //background-color: variables.$primary;
+    //background-blend-mode: color-dodge;
     //color: variables.$noir;
     padding: 20px;
     //width:90%;
     height:80%;
     box-shadow: 0 0 15px black;
     border-radius: 15px;
+    border: 2px solid variables.$blanc;
 
     &:hover{
-      background-color: color.adjust(variables.$primary, $saturation: -50%);
+      //background-color: variables.$blanc;
+      background-color: color.adjust(variables.$noir, $whiteness: 50%);
+      //color: variables.$noir;
     }
 
     &__image{

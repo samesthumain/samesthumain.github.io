@@ -3,10 +3,11 @@
 header{
     display: flex;
     justify-content: space-around;
-    background-color: variables.$primary;
+    background-color: variables.$noir;
     /*color: variables.$primary;*/
     padding: 10px 50px;
     box-shadow: 0 0 15px black;
+    border-bottom: 2px solid variables.$blanc;
     
     a{
         display: flex;

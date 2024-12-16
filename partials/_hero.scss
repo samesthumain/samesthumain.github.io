@@ -1,4 +1,5 @@
 @use "variables";
+@use "sass:color";
 
 main{
     display: flex;
@@ -8,7 +9,7 @@ main{
 }
 
 .profil{
-    background-color: variables.$primary;
+    background-color: variables.$noir;
     background-image: url('../images/logo_mauve.png');
     background-blend-mode: color-dodge;
     background-size: contain;
@@ -30,7 +31,7 @@ main{
     "bouton";
     column-gap: 6em;
 
-    //border: ;
+    border: 2px solid variables.$blanc;
     box-shadow: 0 0 15px black;
 
     h1{
@@ -72,7 +73,7 @@ main{
 
         &__bouton{
             border: 2px solid variables.$blanc;
-            background-color: variables.$primary;
+            background-color: variables.$noir;
             /*color: variables.$blanc;*/
             border-radius: 10px;
             margin: 10%;
@@ -83,6 +84,12 @@ main{
             width: 80%;
             align-self: center;
 
+            &:hover{
+                //background-color: grey;
+                background-color: color.adjust(variables.$noir, $whiteness: 50%);
+                //color: variables.$noir;
+            }
+
             /*a{
                 width: 100%;
                 height: 100%;
@@ -92,8 +99,9 @@ main{
 }
 
 .hero{
-    background-color: variables.$primary;
+    background-color: variables.$noir;
     width: 80%;
+    border: 2px solid variables.$blanc;
     
     background-size: contain;
     background-repeat: no-repeat;
@@ -135,8 +143,9 @@ main{
 }
 
 .desc{
-    background-color: variables.$primary;
+    background-color: variables.$noir;
     width: 80%;
+    border: 2px solid variables.$blanc;
     
     background-size: contain;
     background-repeat: no-repeat;
